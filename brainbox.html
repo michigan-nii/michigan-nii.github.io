@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+    <!-- Add correct subtitle -->
+    <title>Michigan Neuroimaging Initiative: YBRC Brainbox</title>
+
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./bw.css" title="bw">
+
+<!--[if gte IE 5]>
+    <link rel="stylesheet" type="text/css" href="./ie.css">
+<![endif]-->
+
+    
+<style type="text/css">
+p { margin: 0px 0px 4px 0px; }
+</style></head>
+<body>
+
+<div id="title">
+<h1>Michigan Neuroimaging<p>
+    Initiative</h1>
+</div>
+
+<div id="icon"></div>
+
+<div id="content">
+
+    <h2>About the YBRC Brainbox</h2>
+
+    <p>The Yottabyte (YBRC) Brainbox project is a cloud-based
+    service providing interactive computing resources to neuroimaging
+    researchers.  The service provides investigators with virtual
+    machines (VMs) that can access shared, network storage.  The system
+    is quite flexible, and makes it easy for different projects to use
+    different storage, different versions of software, have different
+    users, etc.  Each VM comes with a reasonable amount of local
+    storage, and large networks storage volumes can be provided by
+    ARC-TS, ITS, and MSIS.</p>
+
+    <p>A typical YBRC Brainbox VM consists of four processors, 12 GB
+    of memory, and between 500 GB and 1 TB of local disk space.  This
+    is a good setup for a small lab where one to three people will
+    typically be working on a machine.  If a need for more processing
+    or more memory is encountered, machines can be shut down and
+    reconfigured without disturbing the installed software or data.</p>
+
+    <p>Because VMs can be created relatively quickly (typically within
+    one to two business days), we actually recommend that you create
+    a VM per project, as that simplifies managing other things.  This is
+    quite different from the past when getting new machines was
+    difficult, expensive, and time consuming.  With this new system,
+    you will have the choice to 'clone' an existing VM or to start a
+    new one (as you might wish for a new project to start with new
+    versions of software, for example).</p>
+
+    <p>Connecting to a YBRC Brainbox is done using SSH and VNC, which
+    provides a secure connection and a graphical interface.  From on
+    campus, graphical response is typically very good, and from off
+    campus, graphical response varies somewhat depending on network
+    traffic, ISP, etc, but is usually quite adequate.  Sessions can
+    be detached, and upon reconnection, the desktop appears as it did
+    when detached.</p>
+
+    <p>As of Sep 12, 2016, the YBRC Brainbox is still in pilot testing
+    phase.  If you are interested in getting more information about
+    the project, or getting a demonstration or trial access to one,
+    please contact
+    <code><a href="mailto:brainbox-help@umich.edu">brainbox-help@umich.edu</a></code>
+
+<!-- End content div -->
+</div>
+
+<div id="nav">
+    <ul id="navlist">
+    <!--#include virtual="menu.inc"-->
+    <li class="subtitle">Getting in touch</li>
+    <hr noshade>
+    <!--#include virtual="intouch.inc"-->
+    <div id="notice">
+    Last modified on<br>
+      <!--#config timefmt="%A, %d %B, %Y" -->
+      <!--#echo var="LAST_MODIFIED" --><P>
+      <!--#config timefmt="%Y" -->
+      <li>Copyright <!--#echo var="LAST_MODIFIED" --></li>
+    <!-- End notice div -->
+    </div>
+    </ul>
+<!-- End nav div -->
+</div>
+
+</body>
+</html>
+
