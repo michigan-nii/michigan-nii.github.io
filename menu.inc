@@ -14,7 +14,7 @@
        <li>&emsp;&ndash; <a href="http://www.umich.edu/~nii/brainbox.html">YBRC Brainbox</a></li>
        <li>&emsp;&ndash; <a href="http://www.umich.edu/~nii/flux.html">Flux</a></li>
        <li>&emsp;&ndash; <a href="http://www.umich.edu/~nii/xsede.html">XSEDE</a></li>
-       <li>&emsp;&ndash; <a href="http://www.umich.edu/~nii/tutorial.html">Tutorials</a></li>
+       <li>&emsp;&ndash; <a href="http://www.umich.edu/~nii/tutorial.html">Tutorials and training</a></li>
 <!--
     <p>&nbsp;</p>
     <li class="subtitle">Private pages</li>
